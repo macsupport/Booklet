@@ -135,8 +135,8 @@
                     pageNode;
 
                 // save chapter title
-                if(contentNode.attr('rel')) {
-                    chapter = contentNode.attr('rel');
+                if(contentNode.attr('data-chapter')) {
+                    chapter = contentNode.attr('data-chapter');
                 }
                 // save page title
                 if(contentNode.attr('title')) {
